@@ -3,6 +3,7 @@ import random
 import messages
 import textwrap
 import pytumblr
+import tumblrClient
 
 tags = ['T-M-Daily']
 
@@ -41,9 +42,6 @@ else:
 motd.save("generated.png", format="PNG")
 
 # post it to tumblr
-client = pytumblr.TumblrRestClient(
-)
-
 # add some tags
 if "horoscope" in message:
     tags.append('Horoscope')
@@ -67,4 +65,4 @@ match randomSprite:
         tags.append('Len')
 
 
-client.create_photo('type-moon-daily-message', state="published", tags=tags, data="generated.png")
+tumblrClient.client.create_photo('type-moon-daily-message', state="published", tags=tags, data="generated.png")
