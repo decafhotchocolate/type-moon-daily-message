@@ -9,3 +9,4 @@ Take care of messages which contain `locate`
 locate <number>,<number>
 ```
 
+Of course, I own nothing of the art or messages in this app.
