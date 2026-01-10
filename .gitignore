@@ -1,10 +1,13 @@
 generated.png
 
+pyvenv.cfg
+interactive_console.py
 bin/
 lib/
 lib64/
 include/
-
+pyvenv.cfg
+lib64
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
