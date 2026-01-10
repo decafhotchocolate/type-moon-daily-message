@@ -4,7 +4,7 @@ import messages
 import textwrap
 import pytumblr
 
-tags = ['t-m-daily']
+tags = ['T-M-Daily']
 
 font = ImageFont.truetype("default.ttf", 20)
 
@@ -38,21 +38,17 @@ else:
         # draw.text((margin, offset), line, font=font, fill="#aa0000")
         offset += font.getbbox(line)[3]
 
-motd.save("test_image.png", format="PNG")
+motd.save("generated.png", format="PNG")
 
 # post it to tumblr
 client = pytumblr.TumblrRestClient(
-    '89O643FKzhcfR0KwlyBo78YxgUSZ5qdafsSb1tyG0pG5PiyekP',
-    '8fTHUhQu54lJ9bfmEyKrqFa5FnBInh2VdsjjwTL6CReNTIFWm2',
-    'A69tVQanL9AnWbytomg97SUm2PZIfJxWAUCBSX5ZRlegLQnOgW',
-    'dZAEWcEjCfca2jM5kswtauJISnzkQzwSXrUzHVl1UeTtFNIX99'
 )
 
 # add some tags
 if "horoscope" in message:
-    tags.append('horoscope')
+    tags.append('Horoscope')
 if "lucky item" in message:
-    tags.append('lucky item')
+    tags.append('Lucky item')
 
 match randomSprite:
     case 'sprites/ran_t01.png':
