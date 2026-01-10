@@ -1,0 +1,240 @@
+
+\nHappy New Year!
+
+
+mov $msgfg,":a;image\msg\ran_t01_en.jpg"
+mov $msgbg,"image\msg\ran_bg07.jpg"
+\nMerry Christmas and a happy birthday to me!
+\nI'm expecting presents from everyone!
+
+
+mov $msgfg,":a;image\msg\ran_t02_en.jpg"
+mov $msgbg,"image\msg\ran_bg07.jpg"
+\nMy, my. It's my birthday already?
+\nBut my age is still a secret!
+\nI say that, but even the original author
+\nforgot|
+
+
+mov $msgfg,":a;image\msg\ran_t03_en.jpg"
+mov $msgbg,"image\msg\ran_bg07.jpg"
+\nIt looks like today's my birthday.
+\nA year went by so quickly.
+\nThen I'll meet you all again next year!
+
+
+mov $msgfg,":a;image\msg\ran_t10_en.jpg"
+mov $msgbg,"image\msg\ran_bg07.jpg"
+\nThey say today's our birthday. I'm glad we
+\nhave made acquaintance. Even though
+\nMakihisa-san just decided randomly|
+br
+\nNee-san| You didn't have to mention that|
+
+
+mov $msgfg,":a;image\msg\ran_t09_en.jpg"
+mov $msgbg,"image\msg\ran_bg07.jpg"
+\nWhoooo!
+\nMushroom bomb!
+
+
+mov $msgfg,":a;image\msg\ran_t06_en.jpg"
+mov $msgbg,"image\msg\ran_bg07.jpg"
+\nSo my birthday exists, too!
+\nWhooo! I did it!
+\nNext time I'll be a heroine, too, right,
+\nTohno-kun?
+
+
+mov $msgfg,":a;image\msg\ran_t07_en.jpg"
+mov $msgbg,"image\msg\ran_bg07.jpg"
+\n|||||||(I was born today.)
+
+
+
+# to do
+
+
+\nHave you read it?
+locate 5,1
+\nby the System Manager
+
+
+
+
+mov $msgfg,":a;image\msg\ran_t01_en.jpg"
+\nCharacter Personal Data No. 1
+\nアルクェイド
+\nArcueid Brunestud
+\n　Birthday: December 25th  (self-proclaimed)
+\n　Blood type: unknown
+\n　Height / Weight: 167cm / 52kg
+\n　Measurements: B88 W55 H85
+
+
+mov $msgfg,":a;image\msg\ran_t02_en.jpg"
+\nCharacter Personal Data No. 2
+\nシエル
+\nCiel
+\n　Birthday: May 3rd
+\n　Blood type: 0
+\n　Height / Weight: 165cm / 52kg
+\n　Measurements: B85 W56 H88
+
+27 Dead Apostle Ancestors Series\n　４／Zelretch\n　Magic user. Extremely defenseless, but also one of the most righteous persons.\n　Resembles a certain manga's Kujo Jotaro, rumored to have challenged Brunestud of the Crimson Moon because of a simple dislike.",
+27 Dead Apostle Ancestors Series\n　２７／Caubac Alcatraz\n　Dead Apostle of the Thousand-Year Lock.\n　A Sorcerer who turned Dead Apostle through research.\n　Invented a treasure chest no one can open, but accidentally trapped himself in there, too.\n　Comedian of the 27 Dead Apostles.\n　But his true abilities| well| he's the comedy director.\n　Acquainted with Zelretch for a long time. Almost a Master Sorcerer."
+
+
+mov $msgfg,":a;image\msg\ran_t03_en.jpg"
+\nCharacter Personal Data No. 3
+\n秋葉
+\nTohno Akiha
+\n　Birthday: September 22nd
+\n　Blood type: A
+\n　Height / Weight: 160cm / 45kg
+\n　Measurements: B73 W57 H79
+
+
+mov $msgfg,":a;image\msg\ran_t04_en.jpg"
+\nCharacter Personal Data No. 4
+\n翡翠
+\nHisui
+\n　Birthday: March 12th
+\n　Blood type: B
+\n　Height / Weight: 156cm / 43kg
+\n　Measurements: B76 W58 H82
+
+
+mov $msgfg,":a;image\msg\ran_t05_en.jpg"
+\nCharacter Personal Data No. 5
+\n琥珀
+\nKohaku
+\n　Birthday: March 12th
+\n　Blood type: B
+\n　Height / Weight: 156cm / 43kg
+\n　Measurements: B78 W58 H80
+
+
+mov $msgfg,":a;image\msg\ran_t06_en.jpg"
+\nCharacter Personal Data No. 6
+\n弓塚さつき
+\nYumizuka Satsuki
+\n　Birthday: August 15th
+
+
+mov $msgfg,":a;image\msg\ran_t07_en.jpg"
+\nCharacter Personal Data No. 7
+\nレン
+\nLen
+\n　Birthday: September 9th
+
+
+*msg100
+gosub *msgbgset
+\nDachsund augmentation plan
+locate 3,1
+\n～Faster than a bullet～
+
+
+*msg82
+gosub *msgbgset
+\nHave you read it?
+locate 5,1
+\nby the System Manager
+
+#  to do 
+
+
+
+\n27 Dead Apostle Ancestors Series
+\n　１／Primate Murder
+\n　Invincible killer. White beast. Gaia's monster that follows only Altrouge.
+\n　Although not a Dead Apostle, he mimics Altrouge, so he got a taste for human blood.
+\n　Has absolute authority over whether to kill or let live a person.
+
+
+\n27 Dead Apostle Ancestors Series
+\n　２／The Dark Six
+\n　The first Dead Apostle. The first system.
+\nBut it hasn't reached hundred percent completion.
+
+
+\n27 Dead Apostle Ancestors Series
+\n　３／Brunestud of the Crimson Moon
+\n　The Ultimate One.
+
+
+
+
+27 Dead Apostle Ancestors Series\n　５／ORT\n　ORT. Lives in a South American village.\n　Has a form similar to a spider.
+27 Dead Apostle Ancestors Series\n　６／Rizo-Waal Strout\n　Black Knight Strout. Possesses the magical sword Neardark. One of the top 3.\n　Because of his curse of time, he is thought to be invincible. One of Altrouge's guards.\n　ShiKiller's rival in Tsukihime 2 (*laugh*)\\n　No| there is no Tsukihime 2.
+27 Dead Apostle Ancestors Series\n　７／Einnashe\n　Used to be a normal Dead Apostle. The current Einnashe is of the second generation.
+27 Dead Apostle Ancestors Series\n　８／Fina-Blood Svelten\n　White Knight. Demon of Stratovarius. Has a liking for little boys, so he sucks only male blood.\n　Sponsors a high-class parade, is the captain of a ghost squad. What the heck is that?\n　One of Altrouge's guards.
+27 Dead Apostle Ancestors Series\n　９／Altrouge Brunestud\n　Vampire of the Dead Apostles. Mix of True Ancestor and Dead Apostle.\n　Can be called Arcueid's big sister. But her look is that of a 14 year old girl.\n　Usually, she has no special powers, and can't even teleport.\n　But she can, like a magical girl, transform in two stages or something like that.
+27 Dead Apostle Ancestors Series\n　１０／Nero Chaos\n　Refer to Tsukihime.
+27 Dead Apostle Ancestors Series\n　１１／Stanrobe Calhin\n　Nickname: 'City Eater.'\n　Big eater. Although destroyed by the church, his essence was enough to destroy everything and everyone related to him.\n　But his annoying qualities could not be matched by any other.
+
+
+\n27 Dead Apostle Ancestors Series
+\n　１３／？？？？
+\n　Only rumored to exist. Tatari (disaster).
+\n　Tried to make his existence into a phenomenon, but his existence ended.
+
+
+\n27 Dead Apostle Ancestors Series
+\n　１４／Van-Fem
+\n　One of the top Dead Apostles. Has amazing attention to detail, and has a talent at creating large things.
+\n　Possesses seven magical castles. But one of them fell to the White Knight Blood and his ghost corps. Now both are eyeing each other.
+\n　Original name Vandehlsteim. A wealthy firm's top. A demon king that resides in light.
+\n　Seeing a rapid rise in the last few hundred years.
+
+
+\n27 Dead Apostle Ancestors Series
+\n　１５／Rita Rozay-en
+\n　Typical high-class vampire.
+\n　Inherited her master's property. Does whatever she pleases. But never satisfied. Perhaps a fault of crooked personality?
+\n　Has a good relationship with Sumire. Thinks that when one dies, the other will probably be the killer. Uh| are they really friends?
+
+
+\n27 Dead Apostle Ancestors Series
+\n　１６／Gransurg Blackmoa
+\n　Lord of the Black Wing. Magical existence. Controls the Reality Marble 'Nevermore.'
+\n　Since he bothers others a lot, he's imprisoned by the church.
+\n　Used to be a human who researched magic. Now, however, he has the form of a gigantic crow.
+
+
+\n27 Dead Apostle Ancestors Series
+\n　１７／Trhvmn Ortenrosse
+\n　Whitesmith.
+\n　One of the top Dead Apostles. Doesn't have a special ability - thinks that a vampire doesn't need any, and should just excel at being a vampire.
+\n　A noble who thinks 'Simple is Best.' But considered to be in the 17th place.
+\n　Has the largest property out of all the Dead Apostles. One most acquainted with modern technology.
+
+
+\n27 Dead Apostle Ancestors Series
+\n　１８／Enhance
+\n　Avenger. Killed his master and took his place.
+\n　Still has a lot of human in him, and so his will is one of the most developed out of the Dead Apostles.
+
+
+\n27 Dead Apostle Ancestors Series
+\n　２０／Merm Solomon
+\n　Unusually, he hunts vampires, and is in the Burial Agency.
+\n　Possesses one of the four legendary horses.
+\n　Although he's a traitor, the others tolerate him.
+\n　Rumored to be a secret fan of Arcueid.
+
+
+\n27 Dead Apostle Ancestors Series
+\n　２１／Sumire
+\n　Suma Smire. Lives underwater.
+\n　Only Dead Apostle to be able to teleport in the air.
+\n　Transcends the rules of nature. Perhaps a superhuman.\
+\n　A pessimist who does what she feels like, but also one who can enjoy anything.
+\n　In Tsukihime 2, rumored to be just a simple drunkard older sister who needlessly gets in the way of the murderer.
+
+
+27 Dead Apostle Ancestors Series\n　２７／Caubac Alcatraz\n　Dead Apostle of the Thousand-Year Lock.\n　A Sorcerer who turned Dead Apostle through research.\n　Invented a treasure chest no one can open, but accidentally trapped himself in there, too.\n　Comedian of the 27 Dead Apostles.\n　But his true abilities| well| he's the comedy director.\n　Acquainted with Zelretch for a long time. Almost a Master Sorcerer.
+
+
+27 Dead Apostle Ancestors Series\n　ＥＸ／Michael Roa Valdamjong\n　Refer to Tsukihime.\n　One who wanted to achieve the ultimate magic.
