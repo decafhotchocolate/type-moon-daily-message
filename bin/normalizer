@@ -1,4 +1,4 @@
-#!/home/coronation/dev/type-moon-daily-message/bin/python
+#!/home/coronation/type-moon-daily-message/bin/python
 import sys
 from charset_normalizer.cli import cli_detect
 if __name__ == '__main__':

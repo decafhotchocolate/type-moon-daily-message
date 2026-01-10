@@ -1,4 +1,4 @@
-#!/home/coronation/dev/type-moon-daily-message/bin/python
+#!/home/coronation/type-moon-daily-message/bin/python
 import sys
 from libfuturize.main import main
 if __name__ == '__main__':
