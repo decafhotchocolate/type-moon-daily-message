@@ -4,6 +4,7 @@ import messages
 import textwrap
 import pytumblr
 import tumblrClient
+import time
 
 tags = ['T-M-Daily']
 
@@ -65,4 +66,6 @@ match randomSprite:
         tags.append('Len')
 
 
-tumblrClient.client.create_photo('type-moon-daily-message', state="published", tags=tags, data="generated.png")
+post = tumblrClient.client.create_photo('type-moon-daily-message', state="published", tags=tags, data="generated.png")
+time.sleep(3) # sanity
+tumblrClient.client.mute('type-moon-daily-message', post['id'])
